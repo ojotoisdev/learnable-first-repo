@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+    
+}
+@media (max-width: 600px) {
+    body{
+        flex-direction: column-reverse;
+    }
+}
+fieldset{
+    border: none;
+}
+legend{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkslategray;
+    opacity: 100%;
+}
+.name{
+    color: white;
+    font-size: xx-small;
+}
+#Enter{
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: none;
+    background-color: wheat;
+    
+}
+.main,
+:hover,
+:active,
+:focus {
+    border-color: orange;
+}
+
+#select{
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.select{
+    font-size: xx-small;
+    color: white;
+    border: none;
+}
+.select,
+:hover,
+:active,
+:focus {
+    border-color: orange;
+}
+.comment{
+    font-size: small;
+    
+}
+.text{
+    border-radius: 5px;
+    margin-top: 5px;
+    height: 20%;
+    margin-bottom: 5px;
+}
+.submit{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: small;
+    color: black;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+input::placeholder{
+    font-size: xx-small;
+}
