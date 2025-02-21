@@ -22,42 +22,8 @@ body{
     padding: 2rem;
     
 }
-@media screen and (max-width:901px) {
-    .container{
-        width: 60%;
-    }
-    .contact-page{
-        width: 60%;
-    }
-    .cont2{
-        width: 60%;
-    }
-}
-@media screen and (max-width:601px) {
-    .container{
-        width: 80%;
-    }
-    .contact-page{
-        width: 80%;
-    }
-    .cont2{
-        width: 80%;
-    }
-}
-@media screen and (max-width:600px) {
-    body{
-        font-size: 14px;
-    }
-    .container{
-        width: 100%;
-    }
-    .contact-page{
-        width: 100%;
-    }
-    .cont2{
-        width: 100%;
-    }
-}
+
+    
 
 .main-container{
     background-color: white;
