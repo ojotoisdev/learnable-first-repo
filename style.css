@@ -5,6 +5,8 @@
 }
 body{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000000;
     flex-wrap: wrap;
     height: 100vh;
@@ -13,10 +15,50 @@ body{
     display: flex;
     flex-direction: row;
     gap: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-top: 10vh;
     padding: 2rem;
     
 }
+@media screen and (max-width:901px) {
+    .container{
+        width: 60%;
+    }
+    .contact-page{
+        width: 60%;
+    }
+    .cont2{
+        width: 60%;
+    }
+}
+@media screen and (max-width:601px) {
+    .container{
+        width: 80%;
+    }
+    .contact-page{
+        width: 80%;
+    }
+    .cont2{
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+    }
+    .contact-page{
+        width: 100%;
+    }
+    .cont2{
+        width: 100%;
+    }
+}
+
 .main-container{
     background-color: white;
     width: 1440px;
@@ -62,12 +104,12 @@ letter-spacing: -2%;
     width: 150.00000000000057px;
     height: 150.00000000000057px;
     
-    left: 800px;
+    
     display: flex;
+    
     position: absolute;
-    bottom: 1000px;
-    right: 0%;
-    left: 1230px;
+    left: 2400px;
+    
     font-size: 2px;
     
       
@@ -76,9 +118,9 @@ letter-spacing: -2%;
     font-size: 2px;
     width: 150px;
     height: 150px;
-    margin-top: 300px;
+    
     margin-left: 180px;
-    margin-bottom: 1000px;
+    
 }
 
 .anchor{
@@ -90,6 +132,9 @@ a{
     text-decoration: none;
     gap: 20px;
     font-size: x-small;
+}
+.recipes-agent{
+    background-color: white;
 }
 
 .child-recipes{
@@ -106,6 +151,7 @@ a{
     margin-bottom: 100px;
     font-weight: 100px;
     position: relative;
+    background-color: white;
     
 }
 .child-recipes img{
@@ -121,6 +167,7 @@ a{
     padding: 1.5rem;
     width: 620px;
     height: 550px;
+    margin-left: 10px;
 }
 .paragraph{
  font-family: Inter;
@@ -205,7 +252,7 @@ font-size: small;
     color: white;
 }
 .img2 img{
-    width: 660px;
+    width: 760px;
 height: 550px;
 top: 150px;
 left: 408px;
@@ -295,6 +342,7 @@ left: 80px;
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     margin-top: 100px;
+    padding: 2rem;
 }
 .Simple{
     display: flex;
@@ -455,6 +503,12 @@ color: #00000099;
 
 
 }
+.btn:hover{
+    color: blue;
+}
+.Subscribe:hover{
+    color: chocolate;
+}
 .btn3{
     display: flex;
     justify-content: center;
@@ -541,6 +595,9 @@ border: 1px solid #0000001A
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+a:hover{
+    color: red;
 }
 .foo{
     display: flex;
@@ -763,7 +820,8 @@ margin-top: 50px;
 
 }
 .contact-page{
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
 height: 2530px;
 left: 4988px;
 background: #FFFFFF;
